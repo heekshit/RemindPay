@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Features</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="stylenav.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+  </style>
+  <body>
+    <!-- Header Start -->
+    <header class="site-header">
+      <div class="site-header__top">
+        <div class="wrapper site-header__wrapper">
+          <div class="site-header__start">
+            <ul class="">
+              <li class=""><a href="#">About</a></li>
+              <li class=""><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="site-header__middle">
+            <a href="#" class="brand">🅿️RemindPAY</a>
+          </div>
+        </div>
+      </div>
+      <div class="site-header__bottom">
+        <div class="wrapper site-header__wrapper">
+          <div class="site-header__start">
+            <div class="search">
+              <button class="search__toggle" aria-label="Open search">
+                Search
+              </button>
+            </div>
+          </div>
+
+          <div class="site-header__middle">
+            <nav class="nav">
+              <button class="nav__toggle" aria-expanded="false" type="button">
+                menu
+              </button>
+              <ul class="nav__wrapper" style="list-style-type: none;">
+                <li class="nav__item" ><a href="/login">Home</a></li>
+                <li class="nav__item"><a href="/index">Send Reminder</a></li>
+                <li class="nav__item"><a href="/features">Features</a></li>
+                <li class="nav__item"><a href="/">Logout</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="features-sec-main">
+        <div class="features-sec">
+          <h1>Features</h1>
+          <br>
+          <div class="features-image-sec">
+            <img src="pay 3.webp" alt="Remind" class="center">
+          </div>
+          <p> Take the hassle out of bill payments with our payment reminder app. Say goodbye to missed deadlines and hello to financial peace of mind. With easy setup and customizable notifications, managing your bills has never been easier.
+Keep your finances in check with our payment reminder app. From rent to utilities to credit card bills, we've got you covered. Our app sends reminders straight to your phone, so you can stay on top of your payments no matter where you are.
+            <br><br>
+            Introducing our revolutionary payment reminder app! Our app is designed to simplify your life by sending reminders to you every month so you never miss a payment deadline again. With our easy-to-use interface, you can input your payment schedules and set reminders for when each payment is due. Our app is perfect for anyone who wants to stay organized and in control of their finances. Say goodbye to late fees and hello to financial freedom with our payment reminder app. Download now and start taking control of your payments today!"
+
+Some additional features you might want to highlight in your app description include customizable reminders, multiple payment methods, and real-time notifications. These features can make your app stand out and attract potential users who are looking for a comprehensive payment reminder solution.
+          
+<br><br>
+          </p>
+        </div>
+    </section>
+    <footer class="footer-foot">
+        <div class="footer-content-foot">
+          <h2 class="footer-title-foot">Payment Reminder Application</h2>
+          <p class="footer-description-foot">Are you tired of missing bill payments and paying late fees? Say goodbye to the hassle with our payment reminder app! With our user-friendly interface, you can easily input your payment schedules and set up reminders to ensure you never miss a payment again. Plus, our app sends notifications straight to your phone, so you can stay on top of your finances no matter where you are. Don't let late payments hurt your wallet – download our payment reminder app today and take control of your finances!</p>
+ 
+        </div>
+
+      </footer>
+ 
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+        
+        .container{
+          max-width: 12000px;
+          max-height: fit-content;
+          width: 100%;
+          background-color: #fff;
+          padding: 25px 30px;
+          border-radius: 5px;
+          box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+          align-items: center;
+        }
+        .container .title{
+          font-size: 25px;
+          font-weight: 500;
+          position: relative;
+        }
+        .container .title::before{
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 3px;
+          width: 30px;
+          border-radius: 5px;
+        }
+        .content form .user-details{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin: 20px 0 12px 0;
+        }
+        form .user-details .input-box{
+          margin-bottom: 15px;
+          width: calc(100% / 2 - 20px);
+        }
+        form .input-box span.details{
+          display: block;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+        .user-details .input-box input{
+          height: 45px;
+          width: 100%;
+          outline: none;
+          font-size: 16px;
+          border-radius: 5px;
+          padding-left: 15px;
+          border: 1px solid #000000;
+          border-bottom-width: 2px;
+          transition: all 0.3s ease;
+        }
+        .user-details .input-box input:focus,
+        .user-details .input-box input:valid{
+          border-color: rgba(8, 0, 255, 0.356);
+        }
+         form .gender-details .gender-title{
+          font-size: 20px;
+          font-weight: 500;
+         }
+         form .category{
+           display: flex;
+           width: 80%;
+           margin: 14px 0 ;
+           justify-content: space-between;
+         }
+         form .category label{
+           display: flex;
+           align-items: center;
+           cursor: pointer;
+         }
+         form .category label .dot{
+          height: 18px;
+          width: 18px;
+          border-radius: 50%;
+          margin-right: 10px;
+          background: #d9d9d9;
+          border: 5px solid transparent;
+          transition: all 0.3s ease;
+        }
+         form .button{
+           height: 45px;
+           margin: 35px 
+         }
+         form .button input{
+           height: 100%;
+           width: 100%;
+           border-radius: 5px;
+           border: none;
+           color: #000000;
+           font-size: 18px;
+           font-weight: 500;
+           letter-spacing: 1px;
+           cursor: pointer;
+           transition: all 0.3s ease;
+         }
+         form .button input:hover{
+          /* transform: scale(0.99); */
+          }
+         @media(max-width: 584px){
+         .container{
+          max-width: 100%;
+        
+        }
+        form .user-details .input-box{
+            margin-bottom: 15px;
+            width: 100%;
+          }
+          form .category{
+            width: 100%;
+          }
+          .content form .user-details{
+            max-height: 300px;
+            overflow-y: scroll;
+          }
+          .user-details::-webkit-scrollbar{
+            width: 5px;
+          }
+          }
+          @media(max-width: 459px){
+          .container .content .category{
+            flex-direction: column-reverse;
+          }
+        }
+        
+        .wrapper {
+          max-width: 1140px;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        *,
+        *:before,
+        *:after {
+          box-sizing: border-box;
+        }
+        
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
+        
+        html {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        
+        body {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          background-image: linear-gradient( rgb(255, 255, 255),rgba(8, 0, 255, 0.356));
+        }
+        
+        .sr-only {
+          position: absolute;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 0;
+          border: 0;
+          height: 1px;
+          width: 1px;
+          overflow: hidden;
+        }
+        
+        .button {
+          -webkit-appearance: none;
+             -moz-appearance: none;
+                  appearance: none;
+          color: #000000;
+          background-color: #ffffff;
+          min-width: 120px;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          text-align: center;
+          box-shadow: 4px 4px black;
+          border: 3px solid black;
+        }
+        .button:hover{
+            border: 3px solid black;
+            color: rgb(0, 0, 0);
+            background-color: rgb(105, 105, 105);
+        }
+        
+        .button svg {
+          display: inline-block;
+          vertical-align: middle;
+          width: 24px;
+          height: 24px;
+          fill: #fff;
+        }
+        
+        .button span {
+          display: none;
+        }
+        
+        @media (min-width: 600px) {
+          .button span {
+            display: initial;
+          }
+        }
+        
+        .button--icon {
+          min-width: initial;
+          padding: 0.5rem;
+        }
+        
+        .container-sec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding-left: 250px;
+            padding-bottom: 150px;
+          }
+          
+          .description-sec {
+            flex: 1;
+            padding: 20px;
+          }
+          
+          .image-sec {
+            flex: 1;
+            padding: none;
+          }
+          
+          .title-sec {
+            font-size: 58px;
+            color: #000000;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+          }
+          
+          .description-text-sec {
+            font-size: 18px;
+            margin-top: 10px;
+            color:rgb(122, 122, 122);
+            word-spacing: 1.5px;
+          }
+          .features-sec-main{
+            margin: 100px 250px 350px 250px;
+          }
+          .features-sec h1{
+            font-size: 56px;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          }
+          .features-sec p{
+            font-size: 16px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          }
+          .image-sec img {
+            max-width: 80%;
+            height: auto;
+            
+          }
+          .features-image-sec img {
+            max-width: 40%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .footer-foot {
+            background-color: #000000;
+            padding: 80px;
+          }
+          
+          .footer-content-foot {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            color:#ffffff;
+          }
+          
+          .footer-title-foot {
+            font-size: 28px;
+            color: #ffffff;
+          }
+          
+          .footer-description-foot {
+            font-size: 14px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            color: #ffffff;
+          }
+        </style> 
+        <style>
+          *{
+          margin: 0px;
+          padding: 0px;
+        }
+        .brand {
+            font-weight: bold;
+            font-size: 27px; 
+          }
+          
+          .site-header__top {
+            background-color: #000000; }
+            .site-header__top ul {
+              display: flex; }
+            .site-header__top li:not(:last-child) {
+              margin-right: 1.5rem; }
+            .site-header__top .site-header__start {
+              display: none; }
+          
+          .site-header__bottom {
+            position: relative;
+            background-color: #484848; }
+            @media (max-width: 939px) {
+              .site-header__bottom {
+                order: -1; } }
+          .site-header__wrapper {
+            display: flex;
+            justify-content: space-between; }
+          
+          .site-header__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem; }
+            @media (min-width: 940px) {
+              .site-header__wrapper {
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem; } }
+            @media (min-width: 940px) {
+              .site-header__top .site-header__wrapper {
+                padding-top: 1rem;
+                padding-bottom: 1rem; } }
+          .nav {
+            margin-left: 1rem;
+            margin-right: 1rem; }
+          
+          @media (min-width: 940px) {
+            .nav__wrapper {
+              display: flex; } }
+          
+          @media (max-width: 939px) {
+            .nav__wrapper {
+              position: absolute;
+              top: 100%;
+              right: 0;
+              left: 0;
+              z-index: -1;
+              background-color: #d9f0f7;
+              visibility: hidden;
+              opacity: 0;
+              transform: translateY(-100%);
+              transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+              .nav__wrapper.active {
+                visibility: visible;
+                opacity: 1;
+                transform: translateY(0); } }
+          
+          .nav__item a {
+            display: block;
+            padding: 1.5rem 1.25rem; }
+          
+          .nav__item a:hover{
+            color: rgb(255, 248, 112);
+            text-decoration: underline;
+          }  
+          
+          .nav__item svg {
+            display: inline-block;
+            vertical-align: middle;
+            width: 28px;
+            height: 28px;
+            margin-right: 1rem; }
+            @media (min-width: 940px) {
+              .nav__item svg {
+                display: block;
+                margin: 0 auto 0.5rem; } }
+          .nav__item.active a {
+            border-left-color: #222; }
+            @media (min-width: 800px) {
+              .nav__item.active a {
+                border-bottom-color: #222; } }
+          .nav__toggle {
+            position: absolute;
+            right: 1rem;
+            top: 1rem; }
+            @media (min-width: 940px) {
+              .nav__toggle {
+                display: none; } }
+          .search {
+            display: flex; }
+          
+          .search__toggle {
+            appearance: none;
+            order: 1;
+            font-size: 0;
+            width: 34px;
+            height: 34px;
+            background: url("../img/header-3/search.svg") center/22px no-repeat;
+            border: 0; }
+            @media (max-width: 939px) {
+              .search__toggle {
+                position: absolute;
+                right: 5.5rem;
+                top: 0.65rem; } }
+            .search__toggle.active {
+              background: url("../img/header-5/close.svg") center/22px no-repeat; }
+          
+          .search__form {
+            display: none; }
+            .search__form.active {
+              display: block; }
+            @media (max-width: 799px) {
+              .search__form {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 100%;
+                background-color: red; }
+                .search__form input {
+                  width: 100%; } }
+            .search__form input {
+              min-width: 200px;
+              appearance: none;
+              border: 0;
+              background-color: #fff;
+              border-radius: 0;
+              font-size: 16px;
+              padding: 0.5rem; }
+              @media (max-width: 799px) {
+                .search__form input {
+                  border-bottom: 1px solid #979797; } }
+          
+        </style>
+
+  </body>
+</html>
